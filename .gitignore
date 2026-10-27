@@ -1,0 +1,14 @@
+target/
+dependency-reduced-pom.xml
+*.class
+*.jar
+.idea/
+*.iml
+.vscode/
+# 含真实密钥的本地配置（仅忽略项目根目录的外部配置，模板 src/main/resources/config.properties 仍受版本管理）
+/config.properties
+# 脚本运行时产物与密钥
+/ddns.log
+/ddns_api.log
+/.last_ip
+/ddns.conf
